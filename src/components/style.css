@@ -1,0 +1,191 @@
+.outrow {
+  position: absolute;
+  background-color: #23252C;
+  width: 550px;
+  height: 868px;
+  top: 53px;
+  left: 664px;
+
+}
+
+.body{
+  position: absolute;
+  width: 317px;
+  height: 780px;
+  top: 44px;
+  left: 116px;
+  background-color: #1A1B21;
+  margin: 0;
+  padding: 0;
+}
+
+.img-logo { 
+  width: 317px;
+  height: 317px;
+  top: 44px;
+  left: 116px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+
+
+.name {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h5 {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #F3BF99;
+  ;
+
+}
+
+h6 {
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #F5F5F5;
+
+}
+
+.button {
+  
+  width: 247px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  /* Center items vertically */
+  justify-content: center;
+  /*justify content horizontally*/
+  gap: 8px;
+  /* Adjust the gap between logo and text */
+  padding: 9px 13px 9px 11px;
+  /* Adjust padding as needed */
+  background-color: white;
+  /* Add your background color */
+  color: white;
+  /* Add your text color */
+  border: 1px solid #D1D5DB;
+  /* Remove default button border */
+  border-radius: 5px;
+  /* Add border radius as needed */
+  cursor: pointer;
+  
+
+}
+
+.logo {
+  width: 16px;
+  /* Set your logo width */
+  height: 16px;
+  align-items: center;
+  /* Set your logo height */
+  /* Additional styles for the logo if needed */
+}
+
+button h5 {
+  margin: 0;
+  color: #161619;
+
+
+}
+
+.content {
+  justify-content:left;
+  width: 247px;
+  height: 201px;
+  
+  top: 535px;
+  left: 34px;
+
+}
+
+.content h4 {
+
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #F5F5F5;
+  
+
+
+}
+
+
+.content p {
+  width: 247px;
+  height: 61px;
+  top: 561px;
+  left: 151px;
+
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #DCDCDC;
+
+
+}
+
+.footer {
+  display: flex;
+  background: #161619;
+  width: 297px;
+  height: 45px;
+  top: 864px;
+  left: 116px;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  /* Add padding for spacing */
+
+  /* Center the items horizontally and vertically */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Make the list items flex containers */
+}
+
+.footer li {
+  margin-right: 10px;
+
+  /* Add spacing between items */
+}
+
+.footer img {
+  width: 25px;
+  height: 25px;
+  top: 779.5px;
+  left:164.5px; 
+  filter: grayscale(100%); /* Convert images to black and white */
+}
+.footer img:hover {
+  filter: grayscale(0%); /* Restore color on hover */
+}
